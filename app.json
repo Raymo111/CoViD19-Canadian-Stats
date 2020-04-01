@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "CoViD-19 Canadian Stats",
-    "slug": "CoViD19-React-Native-App",
+    "slug": "CoViD19-Canadian-Stats",
     "privacy": "public",
     "sdkVersion": "36.0.0",
     "platforms": [
@@ -22,10 +22,16 @@
     "assetBundlePatterns": [
       "**/*"
     ],
+    "android": {
+      "package": "li.raymond.COViD19-Canadaian-Stats",
+      "versionCode": 1.0
+    },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "li.raymond.COViD19-Canadaian-Stats",
+      "buildNumber": "1.0"
     },
     "description": "",
-    "githubUrl": "https://github.com/Raymo111/CoViD19-React-Native-App"
+    "githubUrl": "https://github.com/Raymo111/CoViD19-Canadian-Stats"
   }
 }
