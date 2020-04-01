@@ -20,7 +20,7 @@ const SCROLLVIEW_CONTAINER: ViewStyle = {
 }
 
 const WEBVIEW = (height): ViewStyle => ({
-	marginLeft : 40,
+	marginLeft : 60,
 	height,
 })
 
