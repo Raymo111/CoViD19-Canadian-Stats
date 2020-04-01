@@ -1,6 +1,6 @@
-import * as React from "react"
-import { WebView as RNWebView } from "react-native-webview"
-import { RefreshControl, ViewStyle, ScrollView } from "react-native"
+import React, { Component } from 'react';
+import { WebView as RNWebView } from "react-native-webview";
+import { RefreshControl, ViewStyle, ScrollView } from "react-native";
 
 // prettier-ignore
 const INJECTED_JS = `
