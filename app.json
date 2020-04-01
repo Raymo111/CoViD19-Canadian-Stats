@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "CoViD-19 Canadian Stats",
+    "slug": "CoViD19-Canadian-Stats",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "default",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "icon": "./assets/icon.png",
+      "package": "li.raymond.COViD19CS",
+      "versionCode": 1
+    },
+    "ios": {
+      "icon": "./assets/icon-ios.png",
+      "supportsTablet": true,
+      "bundleIdentifier": "li.raymond.COViD19-Canadian-Stats",
+      "buildNumber": "1.0"
+    },
+    "description": "See the spread CoViD-19, with data straight from health Canada!",
+    "githubUrl": "https://github.com/Raymo111/CoViD19-Canadian-Stats",
+    "entryPoint": "node_modules/expo/AppEntry.js"
+  },
+  "displayName": "CoViD-19",
+  "name": "CoViD"
+}
