@@ -16,12 +16,11 @@ window.onscroll = function() {
 const SCROLLVIEW_CONTAINER: ViewStyle = {
 	flex: 1,
 	height: "100%",
+	marginTop: 40,
 }
 
 const WEBVIEW = (height): ViewStyle => ({
-	width: "100%",
-	//marginTop: 40,
-	//marginLeft : 40,
+	marginLeft : 40,
 	height,
 })
 
